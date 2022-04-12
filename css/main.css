@@ -1,0 +1,161 @@
+html, body{
+  background-color: rgb(211, 227, 231);
+  padding: 0% 6%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 400;
+}
+
+h3#mainhead {
+  color:red;
+}
+
+h3#mainhead:hover{
+  font-size: 2em;
+  transition: 1s;
+}
+
+h2{
+  font-weight: bold;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav#horz1, .fixed-footer {
+  background-color: rgb(50, 61, 214);
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.fixed-footer{
+  margin-bottom: 20px;
+  bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.foot{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav#horz1 ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ overflow: hidden; 
+ text-align: center;
+}
+
+nav#horz1 ul li {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+nav#horz1 ul li a {
+  display: block;
+  background-color: rgb(50, 61, 214);
+  color : #fff;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0px 8px 0px;
+  border-radius: 0px;
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 500;
+
+}
+
+nav#horz1 ul li a:hover {
+  background-color: #fff;
+  color: rgb(50, 61, 214);
+  text-transform: capitalize;
+  transition: 1s;
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+
+#floatleft {
+  float: left;
+}
+#floatright {
+  float: right;
+}
+
+.firstchar {
+  color:red;
+  font-weight: bold;
+  font-size: 1.5em;
+  position: relative;
+  top:4px;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+h3.video{
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+  margin: auto;
+}
+
+.container.frame{
+  display: block;
+}
+
+.highlight{
+  font-weight: bold;
+}
+
+div#experience, div#skills, div#numlist{
+  display:block;
+}
+ 
+div#experience ul, div#skills ul {
+  list-style: square;
+}
+
+div#experience ul li:hover, div#skills ul li:hover{
+  font-size: 1.5em;
+  transition: 1s;
+}
+
+.numlist ol{
+ list-style: upper-roman;
+ color: red;
+}
+
+
+.numlist ol li span#listhead:hover, span#listhead1:hover{
+  font-size: 3em;
+  transition: 1s;
+}
+.numlist ol p{
+  color:black;
+}
+
+.listhead{
+  color: red;
+}
+
