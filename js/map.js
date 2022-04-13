@@ -22,13 +22,26 @@ function initMap(){
     scale: 2,
     anchor: new google.maps.Point(15, 30),
   };
-  ,  
+  
+  // Constructing the building coordinates
   const triangleCoords = [
-    { lat: 42.06440887422306,lng: -87.96317975024822},
-    { lat: 42.06500659348257, lng: -87.96231027407818 },
-    { lat: 42.06389149368867, lng: -87.96232100291394 },
-    { lat: 25.774, lng: -80.19 },
+    { lat: 42.06440887422306,lng: -87.96358700552588},
+    { lat: 42.06534111960168, lng: -87.9620205955145},
+    { lat: 42.063732192119346, lng: -87.96179528996493},
   ];
+
+  const apartment = new google.maps.Polygon({
+    paths: triangleCoords,
+    strokeColor: "#FF0000",
+    strokeOpacity: 0.5,
+    strokeWeight: 2,
+    fillColor: "#FF0000",
+    fillOpacity: 0.35,
+  });
+
+  // Setting in the map
+
+  apartment.setMap(myMap);
 
 	var marker = new google.maps.Marker({
 		position: myLocation,
