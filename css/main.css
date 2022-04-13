@@ -159,3 +159,19 @@ div#experience ul li:hover, div#skills ul li:hover{
   color: red;
 }
 
+#wrapper {
+  width: 850px;
+  height: 600px;
+  background-color: #c00;
+  margin:20px auto;
+  overflow: hidden;
+  display: flex;
+}
+#canvas {
+  width: 750px;
+  height: 500px;
+  background-color: #ccc;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
