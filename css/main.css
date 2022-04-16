@@ -102,6 +102,10 @@ nav#horz1 ul li a:hover {
   top:4px;
 }
 
+#lady, #spider, #anchor {
+  padding: 10px;
+}
+
 .row{
   display: flex;
   width: 100%;
@@ -286,6 +290,10 @@ div#experience ul li:hover, div#skills ul li:hover{
     top:4px;
   }
   
+  #lady, #spider, #anchor {
+    padding: 10px;
+  }
+
   .row{
     display: flex;
     width: 100%;
