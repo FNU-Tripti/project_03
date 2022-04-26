@@ -96,10 +96,4 @@ window.setInterval(function() {
 }, 2000);
 
 
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-    mode: 'fade'
-  });
-});
-
 window.addEventListener('load', effectCreator);
