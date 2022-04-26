@@ -425,7 +425,7 @@ div#experience ul li:hover, div#skills ul li:hover{
   .fixed-footer{
     display: flex;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: auto;
     bottom: 20px;
     text-align: center;
@@ -527,10 +527,10 @@ div#experience ul li:hover, div#skills ul li:hover{
   
   iframe{
     position: absolute;
-    margin-left: 40px;
-    width: 400px;
+    margin-left: auto;
+    width: 295px;
     height: 230px;
-    top:auto;
+    top:0;
     left:auto;
   }
   
