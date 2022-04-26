@@ -115,6 +115,10 @@ nav#horz1 ul li a:hover {
   width: 33.33%;
   padding: 10px;
 }
+.garden {
+  height: 200px;
+  width: 300px;
+}
 
 h3.video{
   text-align: center;
@@ -517,14 +521,17 @@ div#experience ul li:hover, div#skills ul li:hover{
     padding-bottom: 56.25%;
     padding-top: 25px;
     height:0;
+    display: flex;
+    justify-content: center;
   }
   
   iframe{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
+    margin-left: 40px;
+    width: 400px;
+    height: 230px;
+    top:auto;
+    left:auto;
   }
   
   .highlight{
