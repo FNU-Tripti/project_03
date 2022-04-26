@@ -186,7 +186,7 @@ div#experience ul li:hover, div#skills ul li:hover{
 }
 }
 
-@media screen and (max-width: 800px){
+@media only screen and (max-width: 800px){
   html, body{
     background-color: rgb(211, 227, 231);
     padding: 0% 6%;
@@ -382,7 +382,7 @@ div#experience ul li:hover, div#skills ul li:hover{
 
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-device-width: 500px) {
   html, body{
     background-color: rgb(211, 227, 231);
     padding: 0% 6%;
