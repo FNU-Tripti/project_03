@@ -94,4 +94,12 @@ window.setInterval(function() {
   var index = Math.floor((Math.random() * 3) + 1);
   setColor(index);
 }, 2000);
+
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade'
+  });
+});
+
 window.addEventListener('load', effectCreator);

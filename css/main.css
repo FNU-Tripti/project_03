@@ -188,6 +188,14 @@ div#experience ul li:hover, div#skills ul li:hover{
   overflow: hidden;
   position: relative;
 }
+
+.slideshow {
+  max-width: 500px;
+  margin: auto auto;
+}
+.slideshow ul {
+  margin:auto;
+}
 }
 
 @media only screen and (max-width: 800px){
@@ -584,5 +592,13 @@ div#experience ul li:hover, div#skills ul li:hover{
     margin: auto;
     overflow: hidden;
     position: relative;
+  }
+
+  .slideshow {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .slideshow ul {
+    margin:0;
   }
 }
